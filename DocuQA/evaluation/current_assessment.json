@@ -1,0 +1,83 @@
+{
+  "timestamp_utc": "2026-10-22T04:46:54.504561+00:00",
+  "cases": {
+    "1": {
+      "pass": true,
+      "note": "Correct timing and graduation-year qualifier."
+    },
+    "2": {
+      "pass": false,
+      "note": "Wrong columns: returned 7, 8 and 88% rather than 24, 32 and 75%."
+    },
+    "3": {
+      "pass": true,
+      "note": "Correct no, with a supporting quotation."
+    },
+    "4": {
+      "pass": true,
+      "note": "Correct project weighting."
+    },
+    "5": {
+      "pass": true,
+      "note": "Correct pass requirement despite paraphrasing."
+    },
+    "6": {
+      "pass": false,
+      "note": "Correct raw facts, but a noncontiguous quotation caused rejection."
+    },
+    "7": {
+      "pass": true,
+      "note": "Correct Commission notice requirement."
+    },
+    "8": {
+      "pass": true,
+      "note": "Correct ordinary invoice deadline."
+    },
+    "9": {
+      "pass": false,
+      "note": "Rewrite contained reasoning and was truncated; raw output repeated a question and had invalid evidence."
+    },
+    "10": {
+      "pass": true,
+      "note": "Correct networking definition."
+    },
+    "11": {
+      "pass": true,
+      "note": "Correct overall explanation from an adjacent passage; the narrow anchor gold missed that useful passage. Citation supports only part of the explanation."
+    },
+    "12": {
+      "pass": false,
+      "note": "Correct raw no, but modified source wording failed exact-quote validation."
+    },
+    "13": {
+      "pass": false,
+      "note": "Text correctly says the information is absent, but status is answered and irrelevant quotes are attached. Strict status failure, not cross-file leakage."
+    },
+    "14": {
+      "pass": true,
+      "note": "Correctly declined the unfilled payment amount."
+    },
+    "15": {
+      "pass": true,
+      "note": "Correctly declined the unrelated question."
+    }
+  },
+  "analysis": [
+    [
+      "Table interpretation",
+      "Q2 retrieved the correct row but chose a different year column. Preserve table headers and row structure; better retrieval alone did not fix the numerical answer."
+    ],
+    [
+      "False refusals and follow ups",
+      "Q6 and Q12 had correct raw answers but quotations failed validation. Q9 produced reasoning in its rewrite and repeated a question. Use contiguous quotes and a structured single-question rewrite rather than weakening source checks."
+    ],
+    [
+      "Refusal status and relevance labels",
+      "Q13 abstained in prose but used answered status with irrelevant citations. All three unsupported cases declined in meaning, but only two used a correct refusal status. Q11 answered meaningfully from an adjacent passage despite zero anchor recall, illustrating incomplete relevance labels."
+    ],
+    [
+      "Measured scope",
+      "Hybrid recall increased from 0.667 to 0.917 on twelve answerable cases; strict correctness was 10/15. The 15-question set is small and deliberately chosen. No semantic fallback occurred; this does not prove reliability across unseen documents."
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "results_sha256": "b5196580a3766fbc8e02cb775eb6ffb843a4d3dfefda3f5d02d8e4b68dd5ab3b",
+  "method": "Assistant review of observed final answers against predefined expected facts and source text; binary correctness, not an independent human study.",
+  "passed_case_ids": [
+    1,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "failed_case_ids": [
+    2,
+    3,
+    5,
+    6,
+    14
+  ],
+  "overall_correct": 10,
+  "total": 15,
+  "recall_at_5": 1.0,
+  "precision_at_5": 0.21666666666666667,
+  "mrr_at_5": 0.8819444444444444
+}

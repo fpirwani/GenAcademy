@@ -1,0 +1,140 @@
+{
+  "documents": {
+    "A": "Graduate Employment Rates.pdf",
+    "B": "Course Outline SDEV1000 - 2025.pdf",
+    "C": "SampleContract-Shuttle.pdf",
+    "D": "uofa-job-search-guidebook.pdf"
+  },
+  "cases": [
+    {
+      "id": 1,
+      "doc": "A",
+      "question": "When is the graduate employment data collected?",
+      "anchors": [
+        "six to twelve months"
+      ],
+      "expected": "Six to twelve months after the end of the graduation year."
+    },
+    {
+      "id": 2,
+      "doc": "A",
+      "question": "What are the all-years-combined employed count, available count and employment rate for Data Analytics?",
+      "anchors": [
+        "Data Analytics 24 32 75%"
+      ],
+      "expected": "24 employed, 32 available, 75%."
+    },
+    {
+      "id": 3,
+      "doc": "A",
+      "question": "Is the job figure limited to careers matching the qualification?",
+      "anchors": [
+        "Employment includes all employment"
+      ],
+      "expected": "No. Employment includes jobs unrelated to the field of training."
+    },
+    {
+      "id": 4,
+      "doc": "B",
+      "question": "What percentage of the grade is the project worth?",
+      "anchors": [
+        "Project - Assessing flowcharts"
+      ],
+      "expected": "30%."
+    },
+    {
+      "id": 5,
+      "doc": "B",
+      "question": "What mark do I need to pass?",
+      "anchors": [
+        "overall average of at least 50%"
+      ],
+      "expected": "At least 50% overall."
+    },
+    {
+      "id": 6,
+      "doc": "B",
+      "question": "What is the course name and how many credits is SDEV1000 worth?",
+      "anchors": [
+        "Course Credits: 3.00"
+      ],
+      "expected": "Logic and Problem-Solving; 3.00 credits."
+    },
+    {
+      "id": 7,
+      "doc": "C",
+      "question": "How much warning must the Commission give to end the agreement for convenience?",
+      "anchors": [
+        "thirty-day (30-day) written notice"
+      ],
+      "expected": "Thirty days written notice."
+    },
+    {
+      "id": 8,
+      "doc": "C",
+      "question": "What is the deadline for submitting invoices after work is performed?",
+      "anchors": [
+        "45calendar days"
+      ],
+      "expected": "No later than 45 calendar days after performance of the work."
+    },
+    {
+      "id": 9,
+      "doc": "C",
+      "question": "And when is the final invoice due?",
+      "anchors": [
+        "60-calendar days"
+      ],
+      "expected": "Within 60 calendar days after the Contract Manager accepts the work.",
+      "followup_to": 8
+    },
+    {
+      "id": 10,
+      "doc": "D",
+      "question": "What does the guide mean by networking?",
+      "anchors": [
+        "Networking is the systematic development"
+      ],
+      "expected": "Developing relationships systematically with people who provide information and support career management."
+    },
+    {
+      "id": 11,
+      "doc": "D",
+      "question": "Why might someone I barely know help me find opportunities my friends miss?",
+      "anchors": [
+        "connectors or bridges for information sharing"
+      ],
+      "expected": "Weak ties connect different circles and provide information unavailable within close groups."
+    },
+    {
+      "id": 12,
+      "doc": "D",
+      "question": "Does the guide recommend one best job search method for everyone?",
+      "anchors": [
+        "the most popular method in general"
+      ],
+      "expected": "No. Effectiveness varies with occupation, industry, career stage and individual circumstances."
+    },
+    {
+      "id": 13,
+      "doc": "A",
+      "question": "How much notice must the Commission give to terminate its contract?",
+      "anchors": [],
+      "expected": "Decline: contract terms are absent from the selected employment report."
+    },
+    {
+      "id": 14,
+      "doc": "C",
+      "question": "What exact dollar amount is the total contract payment?",
+      "anchors": [],
+      "expected": "Decline: the payment amount is blank in this sample template."
+    },
+    {
+      "id": 15,
+      "doc": "B",
+      "question": "What is the capital of Japan?",
+      "anchors": [],
+      "expected": "Decline: unrelated to the course outline."
+    }
+  ]
+}
